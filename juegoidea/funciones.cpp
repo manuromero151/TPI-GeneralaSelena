@@ -13,9 +13,9 @@ void unJugador(){
     cout << "Ingrese nombre del jugador: ";
     cin >> nombre;
     cout << "------------------------------------------------------------" << endl;
-    cout << "TURNO DE " << nombre << " | RONDA N° " << ronda << " | PUNTAJE TOTAL: " << puntajeTotal << " PUNTOS" << endl;
+    cout << "TURNO DE " << nombre << " | RONDA NÂ° " << ronda << " | PUNTAJE TOTAL: " << puntajeTotal << " PUNTOS" << endl;
     cout << "------------------------------------------------------------" << endl;
-    cout << "LANZAMIENTO N° " << lanzamiento << endl;
+    cout << "LANZAMIENTO NÂ° " << lanzamiento << endl;
     cout << "------------------------------------------------------------" << endl;
 
     int dados[5];
@@ -56,14 +56,14 @@ void mostrarDados(int dados[]){
     int respuesta;
     do{
     system("pause");
-    cout<<"¿CONTINUAR LANZANDO SI O NO?:"<<endl;
+    cout<<"Â¿CONTINUAR LANZANDO SI O NO?:"<<endl;
     cin>>respuesta;
     if (respuesta || "si") {
 
         } else if (respuesta && "no") {
-            cout << "¡Deteniendo el lanzamiento!\n";
+            cout << "Â¡Deteniendo el lanzamiento!\n";
         } else {
-            cout << "Respuesta no válida. Por favor, escribe 'si' o 'no'.\n";
+            cout << "Respuesta no vÃ¡lida. Por favor, escribe 'si' o 'no'.\n";
         }
     }
     while(respuesta !=0);
@@ -88,6 +88,7 @@ void mostrarDados(int dados[]){
 void puntajeMayor(){
 
 }
+
 
 
 
